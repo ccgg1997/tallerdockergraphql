@@ -9,6 +9,7 @@ const typeDefs = gql`
     aboutMichael: String
     aboutLeja: String
     aboutCristian: String
+    aboutJose: String
   }
 `;
 
@@ -27,6 +28,10 @@ const resolvers = {
     aboutCristian: (_) => {
       return `¡Hola!, Soy Cristian: me gusta bailar salsa, me gusta jugar tenis y me encanta hacer hiking.`;
     },
+    aboutJose: (_) => {
+      return `¡Hola!, Soy Jose y me gustan los videojuegos,escuchar musica,y tengo una hermosa gata.`;
+    },
+
   },
 };
 
