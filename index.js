@@ -8,6 +8,7 @@ const typeDefs = gql`
     hello(message: String!): String
     aboutMichael: String
     aboutLeja: String
+    aboutCristian: String
   }
 `;
 
@@ -22,7 +23,10 @@ const resolvers = {
     },
     aboutLeja: (_) => {
       return `¡Hola!, Soy Alejandra, tengo una hermana gemela, me gustan mucho las manualidades (tejer, pintar, dibujar,etc.) y trabajo como aux. administrativa en IMEC.`;
-    }
+    },
+    aboutCristian: (_) => {
+      return `¡Hola!, Soy Cristian: me gusta bailar salsa, me gusta jugar tenis y me encanta hacer hiking.`;
+    },
   },
 };
 
