@@ -11,6 +11,7 @@ const typeDefs = gql`
     aboutCristian: String
     aboutJose: String
     aboutValeria: String
+    aboutEsperanza: String
   }
 `;
 
@@ -34,6 +35,9 @@ const resolvers = {
     },
     aboutValeria: (_) => {
       return `¡Hola!, Soy Valeria. Me gusta nadar, jugar al fútbol, dormir y comer :D Tengo un gato llamado Zeus y estoy aprendiendo a manejar moto `;
+    },
+    aboutEsperanza: ( ) => {
+      return `¡Hola, soy Esperanza! Me gustan los videojuegos, el anime y leer mangas/webcómics. También tengo un gato llamado Jean. `;
     },
 
   },
