@@ -7,6 +7,7 @@ const typeDefs = gql`
   type Query {
     hello(message: String!): String
     aboutMichael: String
+    aboutLeja: String
   }
 `;
 
@@ -18,6 +19,9 @@ const resolvers = {
     },
     aboutMichael: (_) => {
       return `¡Hola!, Soy Michael y me gusta la pizza :D, trabajo como desarrollador en Carvajal y tengo 2 gatos.`;
+    },
+    aboutLeja: (_) => {
+      return `¡Hola!, Soy Alejandra, tengo una hermana gemela, me gustan mucho las manualidades (tejer, pintar, dibujar,etc.) y trabajo como aux. administrativa en IMEC.`;
     }
   },
 };
