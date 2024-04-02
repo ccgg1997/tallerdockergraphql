@@ -10,13 +10,10 @@ const typeDefs = gql`
     aboutLeja: String
     aboutCristian: String
     aboutJose: String
-<<<<<<< HEAD
     aboutBrigitte: String
-=======
     aboutValeria: String
     aboutEsperanza: String
     aboutAndres: String
->>>>>>> a1916755459e444997da9b03e2d4ef25f6da9881
   }
 `;
 
@@ -38,11 +35,9 @@ const resolvers = {
     aboutJose: (_) => {
       return `¡Hola!, Soy Jose y me gustan los videojuegos,escuchar musica,y tengo una hermosa gata.`;
     },
-<<<<<<< HEAD
     aboutBrigitte: (_) => {
       return `¡Hola!, Soy Vanesa y me gusta escuchar musica, las plantas y tengo una gata mas hermosa que la de Jose.`;
     },
-=======
     aboutValeria: (_) => {
       return `¡Hola!, Soy Valeria. Me gusta nadar, jugar al fútbol, dormir y comer :D Tengo un gato llamado Zeus y estoy aprendiendo a manejar moto `;
     },
@@ -52,7 +47,6 @@ const resolvers = {
     aboutAndres: ( ) => {
       return `¡Hola!, Soy Andrés, me gusta el fútbol y el ciclismo. Tengo un perro llamado Keisy. `;
     }
->>>>>>> a1916755459e444997da9b03e2d4ef25f6da9881
 
   },
 };
