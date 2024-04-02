@@ -10,6 +10,7 @@ const typeDefs = gql`
     aboutLeja: String
     aboutCristian: String
     aboutJose: String
+    aboutBrigitte: String
     aboutValeria: String
     aboutEsperanza: String
     aboutAndres: String
@@ -33,6 +34,9 @@ const resolvers = {
     },
     aboutJose: (_) => {
       return `¡Hola!, Soy Jose y me gustan los videojuegos,escuchar musica,y tengo una hermosa gata.`;
+    },
+    aboutBrigitte: (_) => {
+      return `¡Hola!, Soy Vanesa y me gusta escuchar musica, las plantas y tengo una gata mas hermosa que la de Jose.`;
     },
     aboutValeria: (_) => {
       return `¡Hola!, Soy Valeria. Me gusta nadar, jugar al fútbol, dormir y comer :D Tengo un gato llamado Zeus y estoy aprendiendo a manejar moto `;
